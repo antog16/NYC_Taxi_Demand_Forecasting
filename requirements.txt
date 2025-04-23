@@ -13,3 +13,4 @@ ipython
 pydeck
 plotly
 geopandas
+openmeteo_requests
