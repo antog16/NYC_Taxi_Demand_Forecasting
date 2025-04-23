@@ -17,3 +17,4 @@ openmeteo_requests
 datetime
 requests_cache
 retry_requests
+openpyxl
