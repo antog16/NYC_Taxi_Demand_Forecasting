@@ -12,3 +12,4 @@ seaborn
 ipython
 pydeck
 plotly
+geopandas
