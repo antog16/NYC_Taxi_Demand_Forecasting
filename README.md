@@ -29,9 +29,9 @@ El objetivo principal de este proyecto es desarrollar un modelo robusto de Machi
 * `urllib` y `glob`: Para la automatización de la descarga y gestión de archivos de datos.
 * `pydeck` y `folium`: Para la visualización interactiva de datos geográficos en mapas.
 * `seaborn` y `matplotlib`: Para la creación de visualizaciones estadísticas y exploratorias.
-* `beautifulsoup4`: Para el web scraping de datos complementarios, como información de eventos o festivos (si aplica).
+* `beautifulsoup4`: Para el web scraping de los enlaces de archivos parquet incluyendo el histórico de viajes de taxis.
 * `optuna`: Para la optimización eficiente de los hiperparámetros del modelo de machine learning.
-* `scikit-learn`: Para algoritmos de machine learning, preprocesamiento de datos y evaluación de modelos.
+* `scikit-learn`: Para algoritmos de machine learning (K-means clustering), preprocesamiento de datos y evaluación de modelos.
 * `xgboost`: Para la implementación del modelo de gradient boosting, conocido por su alto rendimiento en tareas de regresión.
 * `lightgbm`: Otra implementación eficiente del algoritmo de gradient boosting, que a menudo ofrece un rendimiento competitivo y tiempos de entrenamiento más rápidos.
 * `catboost`: Un algoritmo de gradient boosting que se destaca por su manejo robusto de variables categóricas y su menor necesidad de ajuste de hiperparámetros.
@@ -39,7 +39,7 @@ El objetivo principal de este proyecto es desarrollar un modelo robusto de Machi
 
 ## 🗃️ Conjuntos de Datos
 
-**Viajes en taxis amarillos (2022 - Enero 2025):**
+**Viajes en taxis amarillos (Enero 2022 - Enero 2025):**
 
 * **Fuente:** NYC Taxi & Limousine Commission (TLC)
 * **Descripción:** Este conjunto de datos contiene información detallada sobre cada viaje realizado por los taxis amarillos de Nueva York, incluyendo las ubicaciones (barrios) de inicio y fin, la hora de inicio y fin del viaje, la duración, la distancia recorrida y el número de pasajeros. La granularidad de los datos es a nivel de cada viaje individual.
